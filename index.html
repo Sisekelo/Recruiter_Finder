@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Uni Informer site</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+		#myTable {
+		    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		    border-collapse: collapse;
+		    width: 100%;
+		    color: black;
+		}
+
+		#myTable td, #myTable th {
+		    border: 1px solid #ddd;
+		    padding: 8px;
+		}
+
+		#myTable tr:nth-child(even){background-color: #f2f2f2;}
+
+		#myTable tr:hover {background-color: #ddd;}
+
+		#myTable th {
+		    padding-top: 12px;
+		    padding-bottom: 12px;
+		    text-align: left;
+		    background-color: #4CAF50;
+		    color: white;
+		}
+		</style>
+
+</head>
+
+<body>
+	<header>
+		<!-- <div class = "centre-box">
+			<p>
+				Welcome to the my university site. It is aimed to allow you to understand a bit more about different universities and countries. Enjoy.
+			</p>
+			<a href="#home" class="button-raised">Enter site</a>
+		</div>	
+	</header> -->
+
+	<section id="home" class="myelement">
+
+		<strong onclick="done()">CLICK ME</stong>
+
+		<div>
+			<script>
+			  (function() {
+			    var cx = '016245852040711823206:ntyiel86xci';
+			    var gcse = document.createElement('script');
+			    gcse.type = 'text/javascript';
+			    gcse.newWindow ="true";
+			    gcse.async = true;
+			    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+			    var s = document.gcseetElementsByTagName('script')[0];
+			    s.parentNode.insertBefore(gcse, s);
+			  })();
+			</script>
+			<gcse:search></gcse:search>
+		</div>
+
+		<table id="myTable" style="">
+				<tr>
+				    <th>Name</th>
+				    <th>Surname</th>
+				    <th>Email</th>
+				    <th>Company</th>
+				</tr>
+			</table>
+	<!-- 	
+		<nav>
+			<ul class="topnav">
+			  <li><a href="swazi.html">Swaziland</a></li>
+			  <li><a href="uk.html">UK</a></li>
+			  <li><a href="mauritius.html">Mauritius</a></li>
+			  <li><a class="active" href="index.html#home">Home</a></li>
+			</ul>
+		</nav>
+
+		<div>
+			<h1>
+				Welcome to my university site.
+			</h1>
+		</div>
+
+		<div class="boxes">
+
+			<div class="left">
+
+	  			<div class="card" id="swaziland"  onclick="location.href = 'swazi.html'" >
+				  <img src="img/swaziland.png" alt="Avatar" style="width:100%">
+				  <div class="container">
+				    <h2><b>Swaziland</b></h2>
+				    <p>Swaziland is a small country in Southern Africa</p> 
+				  </div>
+				</div>
+
+			</div>
+
+			<div class="mid">
+			  <div class="card" id="mauritius" onclick="location.href = 'mauritius.html'">
+				  <img src="img/mauritius.png" alt="Avatar" style="width:100%">
+				  <div class="container">
+				    <h2><b>Mauritius</b></h2>
+				    <p>Mauritius is an island nation on the east of Madagascar</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="right">
+			  <div class="card" id="United Kingdom" onclick="location.href = 'uk.html'">
+				  <img src="img/uk.png" alt="Avatar" style="width:100%">
+				  <div class="container">
+				    <h2><b>United Kingdom</b></h2>
+				    <p>UK is a union of England, Scotland, Wales and Northern Ireland</p>
+				  </div>
+				</div>
+			</div>
+		</div> -->
+		
+	</section>
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Uni Informer site: UK</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+	<link rel="shortcut icon" type="image/svg" href="img/uk.png" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<div id="overlay" onclick="off()">
+		<div class="container">
+
+			<canvas id="myChart">
+			</canvas>
+
+			<br>
+
+		</div>
+	</div>
+
+	<section id="uk" class="countryHome" >
+		
+		<nav>
+			<ul class="topnav">
+			  <li><a href="swazi.html">Swaziland</a></li>
+			  <li><a class="active" href="uk.html">UK</a></li>
+			  <li><a href="mauritius.html">Mauritius</a></li>
+			  <li><a href="index.html#home">Home</a></li>
+			</ul>
+		</nav>
+
+		<div>
+			<h1>
+				Information about UK
+			</h1>
+		</div>
+
+		<div class="boxesList">
+
+			<div class="left">
+	  			<div class="card" id="listSwazi" onclick="location.href = 'listuk.html'">
+				  <div class="container">
+				    <h2><b>List</b></h2>
+				    <p>List of universities in United Kingdom</p> 
+				  </div>
+				</div>
+			</div>
+
+			<div class="mid">
+			  <div class="card" id="lineUK" onclick="enrollment('GB')">
+				  <div class="container">
+				    <h2><b>Line graph</b></h2>
+				    <p>Percentage of students enrolled in Natural Sciences, Mathematics and Statistics programmes</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="right"> <!-- needs to be looked at again -->
+			  <div class="card" id="pieSwazi" onclick="genderList('GB')">
+				  <div class="container">
+				    <h2><b>Pie Chart</b></h2>
+				    <p>Gender differences in universities</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="right">
+			  <div class="card" onclick="education('GB')">
+				  <div class="container">
+				    <h2><b>Education</b></h2>
+				    <p>Students enrolled in educational programs</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="right">
+			  <div class="card"  onclick="humanities('GB')">
+				  <div class="container">
+				    <h2><b>Arts and Humanities</b></h2>
+				    <p>Students enrolled in humanities programs</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="right">
+			  <div class="card" onclick="unspecified('GB')">
+				  <div class="container">
+				    <h2><b>Unspecified fields</b></h2>
+				    <p>Students enrolled in unspecified programs</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="right">
+			  <div class="card" onclick="agriculture('GB')">
+				  <div class="container">
+				    <h2><b>Agriculture</b></h2>
+				    <p>Students enrolled in agriculture programs</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="right">
+			  <div class="card" id="pieSwazi" onclick="engineering('GB')">
+				  <div class="container">
+				    <h2><b>Bar Chart</b></h2>
+				    <p>Students enrolled in Engineering</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="right">
+			  <div class="card" id="pieSwazi" onclick="social('GB')">
+				  <div class="container">
+				    <h2><b>Line Chart</b></h2>
+				    <p>Students enrolled in Social Science</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="right">
+			  <div class="card" id="pieSwazi" onclick="totalEnrol('GB')">
+				  <div class="container">
+				    <h2><b>Line Graph</b></h2>
+				    <p>Total Enrolment in all universities</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="right">
+			  <div class="card" id="pieSwazi" onclick="info('GB')">
+				  <div class="container">
+				    <h2><b>Line Graph</b></h2>
+				    <p>Involved in IT</p>
+				  </div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
